@@ -1,0 +1,56 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #161616;
+    overflow: hidden;
+    cursor:crosshair;
+}
+
+h1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:fantasy;
+}
+
+.img{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    transition-timing-function: ease-out;
+}
+
+.img-1 {
+    background: url(./images/bnxn-buju.webp);
+    background-size: cover;
+    transition-duration:1000ms;
+}
+
+.img-2 {
+    background: url(./images/Joeboy-birthday3.jpg);
+    background-size: cover;
+    transition-duration:800ms;
+}
+
+.img-3 {
+    background: url(./images/joeboy.webp);
+    background-size: cover;
+    transition-duration:600ms;
+}
+
+.img-4 {
+    background: url(./images/khaid.jpeg);
+    background-size: cover;
+    transition-duration:400ms;
+}
+
+.img-5 {
+    background: url(./images/Teni-Melaninpeople.jpg);
+    background-size: cover;
+    transition-duration:200ms;
+}
